@@ -16,7 +16,7 @@
     $userAge = '36';
     $mail = 'yulia@mail.ru';
     $city = 'Moscow';
-    $about = 'Продавщица в Пятерочке';
+    $about = 'Продавщица в Ашане';
     ?>
 
 
