@@ -1,3 +1,14 @@
+        <?php 
+          $userName = 'Юлия';
+          $userAge = '36';
+          $mail = 'yulia@mail.ru';
+          $city = 'Moscow';
+          $about = 'Продавщица в Ашане';
+        ?>
+
+
+
+
 <!DOCTYPE html>
   <html lang="en">
     <head>
@@ -6,13 +17,7 @@
     </head>
     <body>
       <h1>Знакомство с PHP</h1>
-      <?php 
-          $userName = 'Юлия';
-          $userAge = '36';
-          $mail = 'yulia@mail.ru';
-          $city = 'Moscow';
-          $about = 'Продавщица в Ашане';
-          ?>
+     
       <p>Имя: <strong><?= $userName ?></strong></p>
       <p>Возраст: <strong><?= $userAge ?></strong></p>
       <p>Электронная почта: <strong><?= $mail ?></strong></p>
